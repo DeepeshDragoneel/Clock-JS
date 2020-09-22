@@ -29,6 +29,10 @@ html, body{
     position: absolute;
     top: 50.25%;
     right: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: 0.3s all;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .sec{
     width: 50%;
@@ -36,6 +40,10 @@ html, body{
     background: #e8505b;
     position: absolute;
     top: 50.5%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.08, 2.4, 0.6, 1);
 }
 .hour{
     width: 35%;
@@ -44,4 +52,8 @@ html, body{
     position: absolute;
     top: 50%;
     right: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: 0.3s all;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
