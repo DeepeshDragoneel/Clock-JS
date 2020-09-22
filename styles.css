@@ -1,0 +1,47 @@
+html, body{
+    margin: 0px;
+    background: url("wallpaper.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    height: 20rem;
+    width: 20rem;
+    border: 15px solid #e4e3e3;
+    border-radius: 50%;
+    margin: 5rem auto;
+    padding: 2rem;
+    box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1), inset 0 0 0 3px #bbe1fa, inset 0 0 10px #1b262c, 0 0 10px #1b262c;
+}
+.frame{
+    position: relative;
+    height: 20rem;
+    width: 20rem;
+}
+.min{
+    width: 45%;
+    height: 4px;
+    background: #204051;
+    position: absolute;
+    top: 50.25%;
+    right: 50%;
+}
+.sec{
+    width: 50%;
+    height: 2px;
+    background: #e8505b;
+    position: absolute;
+    top: 50.5%;
+}
+.hour{
+    width: 35%;
+    height: 6px;
+    background: #24a19c;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
