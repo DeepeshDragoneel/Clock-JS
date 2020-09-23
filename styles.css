@@ -57,3 +57,10 @@ html, body{
     transition: 0.3s all;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+
+.notrans{
+    -webkit-transition-property: none;
+    -moz-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+}
